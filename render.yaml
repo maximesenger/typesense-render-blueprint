@@ -4,6 +4,7 @@ services:
   env: docker
   repo: https://github.com/hmbrg/typesense-on-render.git
   plan: starter
+  region: frankfurt
   healthCheckPath: /health
   disk:
     name: typesense-data
